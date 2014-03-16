@@ -1,0 +1,82 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+
+extends layout
+
+block content
+    h1.
+        User List
+        
+
+    ul
+        each user, i in userlist
+            li
+                a(href="mailto:#{user.email}")= user.username
+                p #{user.school}
+
+
+
+
+
+
+   -------------------------------------- */
+.row {
+   text-align: center;
+}
+
+.row #but{
+   position: absolute;
+   top: 50%;
+}
+
+
+
+/*#but {
+   position: absolute;
+   top: 50%;
+}*/
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+
+/* Landscape phone to portrait tablet */
+
+/* Large desktop */

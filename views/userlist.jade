@@ -1,0 +1,21 @@
+extends layout
+
+block content  
+  div
+    h1.
+      Seats left: #{55 - userlist.length} 
+  div
+    table.table.table-striped
+      thead
+        tr
+          td Users 
+          td School
+      tbody
+        each user, i in userlist
+          tr
+            td #{user.username}
+            td #{user.school}
+  div
+    h1.
+      Test
+    
