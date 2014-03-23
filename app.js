@@ -40,8 +40,10 @@ app.get('/home', function(req, res) {
 });
 app.get('/users', user.list);
 app.get('/userlist', routes.userlist(db));
+app.get('/userlistadmin', routes.userlistadmin(db));
 app.get('/newuser', routes.newuser);
 app.post('/adduser', routes.adduser(db));
+app.post('/addNote', routes.addNote(db));
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

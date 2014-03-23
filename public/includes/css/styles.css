@@ -1,82 +1,84 @@
-/*
-
-My Custom CSS
-=============
-
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
-
-*/
-
-
-/* --------------------------------------
-   Layout
-
-extends layout
-
-block content
-    h1.
-        User List
-        
-
-    ul
-        each user, i in userlist
-            li
-                a(href="mailto:#{user.email}")= user.username
-                p #{user.school}
 
 
 
+   /* --------------------------------------
+      Layout
+
+      -------------------------------------- */
+   h1 {
+      text-align: center;
+   }
+
+   .row #but{
+      position: absolute;
+      top: 30%;
+      text-align: center;
+   }
+
+   #myModal {
+      text-align: left;
+   }
+
+   .btn {
+      box-shadow: 1px 8px 15px 0px rgba(50, 50, 50, 0.75);
+   }
+
+   #top {
+      padding: 100px;
+      background-color:rgba(255,0,0,0.5);
+      box-shadow: 1px 8px 15px 0px rgba(50, 50, 50, 0.75);
+   }
+   #first {
+      text-align: center;
+
+   }
+   body{
+
+   background-image: url(/images/random.jpg);
+
+   /*background-image: -o-linear-gradient(right bottom, #FCF7F8 0%, #738ED4 82%);
+   background-image: -moz-linear-gradient(right bottom, #FCF7F8 0%, #738ED4 82%);
+   background-image: -webkit-linear-gradient(right bottom, #FCF7F8 0%, #738ED4 82%);
+   background-image: -ms-linear-gradient(right bottom, #FCF7F8 0%, #738ED4 82%);
+   background-image: linear-gradient(to right bottom, #FCF7F8 0%, #738ED4 82%);*/
+   }
+   th {
+      text-align: center;
+   }
+   /*#but {
+      position: absolute;
+      top: 50%;
+   }*/
+
+   /* --------------------------------------
+      Typography
+      -------------------------------------- */
 
 
 
-   -------------------------------------- */
-.row {
-   text-align: center;
-}
-
-.row #but{
-   position: absolute;
-   top: 50%;
-}
+   /* --------------------------------------
+      Navbar
+      -------------------------------------- */
 
 
-
-/*#but {
-   position: absolute;
-   top: 50%;
-}*/
-
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
+      
+   /* --------------------------------------
+      Carousel
+      -------------------------------------- */
 
 
 
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
+   /* --------------------------------------
+      Global Styles
+      -------------------------------------- */
 
 
-   
-/* --------------------------------------
-   Carousel
-   -------------------------------------- */
+   /* --------------------------------------
+      Media Queries
+      -------------------------------------- */
 
+   /* Portrait & landscape phone */
 
+   /* Landscape phone to portrait tablet */
 
-/* --------------------------------------
-   Global Styles
-   -------------------------------------- */
-
-
-/* --------------------------------------
-   Media Queries
-   -------------------------------------- */
-
-/* Portrait & landscape phone */
-
-/* Landscape phone to portrait tablet */
-
-/* Large desktop */
+   /* Large desktop */
